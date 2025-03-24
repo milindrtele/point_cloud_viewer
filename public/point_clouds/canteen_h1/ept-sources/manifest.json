@@ -1,0 +1,16 @@
+[
+  {
+    "bounds": [
+      -29.684040069580078,
+      -31.75333595275879,
+      -0.4523878,
+      25.673820530419917,
+      32.867500347241204,
+      6.5186462
+    ],
+    "inserted": true,
+    "metadataPath": "canteen_h1.json",
+    "path": ".\\pointclouds\\canteen\\canteen_h1.laz",
+    "points": 10958414
+  }
+]

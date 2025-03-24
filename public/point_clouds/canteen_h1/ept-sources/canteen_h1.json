@@ -1,0 +1,326 @@
+{
+  "bounds": [
+    -29.684040069580078,
+    -31.75333595275879,
+    -0.4523878,
+    25.673820530419917,
+    32.867500347241204,
+    6.5186462
+  ],
+  "metadata": {
+    "readers.las": {
+      "comp_spatialreference": "",
+      "compressed": true,
+      "copc": false,
+      "count": 10958414,
+      "creation_doy": 81,
+      "creation_year": 2025,
+      "dataformat_id": 2,
+      "dataoffset": 963,
+      "filesource_id": 0,
+      "global_encoding": 0,
+      "global_encoding_base64": "AAA=",
+      "header_size": 227,
+      "major_version": 1,
+      "maxx": 25.67382053,
+      "maxy": 32.86750035,
+      "maxz": 6.5186462,
+      "minor_version": 2,
+      "minx": -29.684040069999998,
+      "miny": -31.75333595,
+      "minz": -0.4523878,
+      "offset_x": -29.6840400695801,
+      "offset_y": -31.7533359527588,
+      "offset_z": 0,
+      "point_length": 50,
+      "project_id": "00000000-0000-0000-0000-000000000000",
+      "scale_x": 1e-07,
+      "scale_y": 1e-07,
+      "scale_z": 1e-07,
+      "software_id": "LASzip DLL 3.4 r3 (191111)",
+      "spatialreference": "",
+      "srs": {
+        "compoundwkt": "",
+        "horizontal": "",
+        "isgeocentric": false,
+        "isgeographic": false,
+        "json": {},
+        "prettycompoundwkt": "",
+        "prettywkt": "",
+        "proj4": "",
+        "units": {
+          "horizontal": "unknown",
+          "vertical": ""
+        },
+        "vertical": "",
+        "wkt": ""
+      },
+      "system_id": "",
+      "vlr_0": {
+        "data": "AAAKAE5vcm1hbFgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAE5vcm1hbFkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAE5vcm1hbFoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "description": "",
+        "record_id": 4,
+        "user_id": "LASF_Spec"
+      },
+      "vlr_1": {
+        "data": "AgAAAAMEAwAAAAAAUMMAAP////////////////////8DAAYAFAACAAgABgACAAAAGAACAA==",
+        "description": "LASzip DLL 3.4 r3 (191111)",
+        "record_id": 22204,
+        "user_id": "laszip encoded"
+      },
+      "vlr_2": {
+        "data": "AAAKAE5vcm1hbFgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAE5vcm1hbFkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAE5vcm1hbFoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "description": "",
+        "record_id": 4,
+        "user_id": "LASF_Spec"
+      },
+      "vlr_3": {
+        "data": "AgAAAAMEAwAAAAAAUMMAAP////////////////////8DAAYAFAACAAgABgACAAAAGAACAA==",
+        "description": "LASzip DLL 3.4 r3 (191111)",
+        "record_id": 22204,
+        "user_id": "laszip encoded"
+      }
+    }
+  },
+  "path": ".\\pointclouds\\canteen\\canteen_h1.laz",
+  "pipeline": [
+    {
+      "filename": ".\\pointclouds\\canteen/canteen_h1.laz"
+    }
+  ],
+  "points": 10958414,
+  "schema": [
+    {
+      "count": 10958414,
+      "maximum": 25.673820530419917,
+      "mean": 3.0265483709743424,
+      "minimum": -29.684040069580078,
+      "name": "X",
+      "offset": -29.684040069580078,
+      "scale": 1e-07,
+      "size": 4,
+      "stddev": 5.83996445068155,
+      "type": "signed",
+      "variance": 34.10518478522425
+    },
+    {
+      "count": 10958414,
+      "maximum": 32.867500347241204,
+      "mean": -0.7591382379240246,
+      "minimum": -31.75333595275879,
+      "name": "Y",
+      "offset": -31.75333595275879,
+      "scale": 1e-07,
+      "size": 4,
+      "stddev": 8.214483374667106,
+      "type": "signed",
+      "variance": 67.47773711268228
+    },
+    {
+      "count": 10958414,
+      "maximum": 6.5186462,
+      "mean": 1.6681756461447628,
+      "minimum": -0.4523878,
+      "name": "Z",
+      "scale": 1e-07,
+      "size": 4,
+      "stddev": 1.410950006954458,
+      "type": "signed",
+      "variance": 1.990779922124785
+    },
+    {
+      "count": 10958414,
+      "maximum": 0,
+      "mean": 0,
+      "minimum": 0,
+      "name": "Intensity",
+      "size": 2,
+      "stddev": 0,
+      "type": "unsigned",
+      "variance": 0
+    },
+    {
+      "count": 10958414,
+      "maximum": 0,
+      "mean": 0,
+      "minimum": 0,
+      "name": "ReturnNumber",
+      "size": 1,
+      "stddev": 0,
+      "type": "unsigned",
+      "variance": 0
+    },
+    {
+      "count": 10958414,
+      "maximum": 0,
+      "mean": 0,
+      "minimum": 0,
+      "name": "NumberOfReturns",
+      "size": 1,
+      "stddev": 0,
+      "type": "unsigned",
+      "variance": 0
+    },
+    {
+      "count": 10958414,
+      "maximum": 0,
+      "mean": 0,
+      "minimum": 0,
+      "name": "ScanDirectionFlag",
+      "size": 1,
+      "stddev": 0,
+      "type": "unsigned",
+      "variance": 0
+    },
+    {
+      "count": 10958414,
+      "maximum": 0,
+      "mean": 0,
+      "minimum": 0,
+      "name": "EdgeOfFlightLine",
+      "size": 1,
+      "stddev": 0,
+      "type": "unsigned",
+      "variance": 0
+    },
+    {
+      "count": 10958414,
+      "counts": [
+        {
+          "count": 10958414,
+          "value": 0
+        }
+      ],
+      "maximum": 0,
+      "mean": 0,
+      "minimum": 0,
+      "name": "Classification",
+      "size": 1,
+      "stddev": 0,
+      "type": "unsigned",
+      "variance": 0
+    },
+    {
+      "count": 10958414,
+      "maximum": 0,
+      "mean": 0,
+      "minimum": 0,
+      "name": "Synthetic",
+      "size": 1,
+      "stddev": 0,
+      "type": "unsigned",
+      "variance": 0
+    },
+    {
+      "count": 10958414,
+      "maximum": 0,
+      "mean": 0,
+      "minimum": 0,
+      "name": "KeyPoint",
+      "size": 1,
+      "stddev": 0,
+      "type": "unsigned",
+      "variance": 0
+    },
+    {
+      "count": 10958414,
+      "maximum": 0,
+      "mean": 0,
+      "minimum": 0,
+      "name": "Withheld",
+      "size": 1,
+      "stddev": 0,
+      "type": "unsigned",
+      "variance": 0
+    },
+    {
+      "count": 10958414,
+      "maximum": 0,
+      "mean": 0,
+      "minimum": 0,
+      "name": "Overlap",
+      "size": 1,
+      "stddev": 0,
+      "type": "unsigned",
+      "variance": 0
+    },
+    {
+      "count": 10958414,
+      "maximum": 0,
+      "mean": 0,
+      "minimum": 0,
+      "name": "ScanAngleRank",
+      "size": 4,
+      "stddev": 0,
+      "type": "float",
+      "variance": 0
+    },
+    {
+      "count": 10958414,
+      "maximum": 0,
+      "mean": 0,
+      "minimum": 0,
+      "name": "UserData",
+      "size": 1,
+      "stddev": 0,
+      "type": "unsigned",
+      "variance": 0
+    },
+    {
+      "count": 10958414,
+      "maximum": 0,
+      "mean": 0,
+      "minimum": 0,
+      "name": "PointSourceId",
+      "size": 2,
+      "stddev": 0,
+      "type": "unsigned",
+      "variance": 0
+    },
+    {
+      "count": 10958414,
+      "maximum": 65280,
+      "mean": 41287.10176929399,
+      "minimum": 256,
+      "name": "Red",
+      "size": 2,
+      "stddev": 14231.396637241458,
+      "type": "unsigned",
+      "variance": 202532650.24648747
+    },
+    {
+      "count": 10958414,
+      "maximum": 65280,
+      "mean": 40682.703253955224,
+      "minimum": 256,
+      "name": "Green",
+      "size": 2,
+      "stddev": 13986.69224574226,
+      "type": "unsigned",
+      "variance": 195627559.97710666
+    },
+    {
+      "count": 10958414,
+      "maximum": 65280,
+      "mean": 39211.193824216156,
+      "minimum": 256,
+      "name": "Blue",
+      "size": 2,
+      "stddev": 14972.69215316113,
+      "type": "unsigned",
+      "variance": 224181510.31333286
+    },
+    {
+      "count": 10958414,
+      "maximum": 0,
+      "mean": 0,
+      "minimum": 0,
+      "name": "OriginId",
+      "size": 4,
+      "stddev": 0,
+      "type": "unsigned",
+      "variance": 0
+    }
+  ],
+  "srs": {}
+}
